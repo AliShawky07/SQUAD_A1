@@ -8,6 +8,8 @@ App\MAIN\main.c
 
 HAL\BUTTON\BUTTON.c
 
+HAL\LCD\LCD_CORE.c
+
 HAL\LED\LED.c
 
 HAL\Relay\RELAY.c

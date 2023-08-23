@@ -47,8 +47,8 @@ PORTA_PIN7 ---> #7    PORTB _PIN7 ---> #15        PORTC_PIN7 ---> #23       PORT
 /**********************************************************************************************************************
  *  GLOBAL CONSTANT MACROS
  *********************************************************************************************************************/
-#define DEFINED_PINS                 2
-#define NUMBER_OF_EACH_PORT_PINS    8
+#define DEFINED_PINS                 9
+#define NUMBER_OF_EACH_PORT_PINS     8
 
 #define PORTA_PIN0  0
 #define PORTA_PIN1  1

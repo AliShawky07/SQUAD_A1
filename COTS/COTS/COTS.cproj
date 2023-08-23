@@ -113,6 +113,8 @@
       <Value>../App/CFGH/HAL_CFG/LED_CFG</Value>
       <Value>../App/CFGH/HAL_CFG/BTN_CFG</Value>
       <Value>../App/CFGH/HAL_CFG/BUZZ_CFG</Value>
+      <Value>../HAL/LCD</Value>
+      <Value>../App/CFGH/HAL_CFG/LCD_CFG</Value>
     </ListValues>
   </avrgcc.compiler.directories.IncludePaths>
   <avrgcc.compiler.optimization.level>Optimize debugging experience (-Og)</avrgcc.compiler.optimization.level>
@@ -139,6 +141,7 @@
     <Folder Include="App\CFGH\HAL_CFG" />
     <Folder Include="App\CFGH\HAL_CFG\LED_CFG" />
     <Folder Include="App\CFGH\HAL_CFG\BTN_CFG" />
+    <Folder Include="App\CFGH\HAL_CFG\LCD_CFG" />
     <Folder Include="App\CFGH\MCAL_CFG" />
     <Folder Include="App\CFGH\MCAL_CFG\PORT_CFG" />
     <Folder Include="App\MAIN" />
@@ -146,6 +149,7 @@
     <Folder Include="App" />
     <Folder Include="HAL\BUTTON\" />
     <Folder Include="HAL\LED\" />
+    <Folder Include="HAL\LCD" />
     <Folder Include="HAL\Relay\" />
     <Folder Include="HAL\Seven Segment\" />
     <Folder Include="HAL" />
@@ -155,6 +159,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App\CFGH\HAL_CFG\BTN_CFG\BTN_CFG.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="App\CFGH\HAL_CFG\LCD_CFG\LCD_CFG.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="App\CFGH\HAL_CFG\LED_CFG\LED_CFG.h">
@@ -182,6 +189,12 @@
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="HAL\BUTTON\BUTTON.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="HAL\LCD\LCD_CORE.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="HAL\LCD\LCD_CORE.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="HAL\LED\LED.c">
